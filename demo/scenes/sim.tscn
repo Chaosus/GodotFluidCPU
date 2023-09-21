@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://drmxd36vriw0j"]
+
+[ext_resource type="Script" path="res://scripts/sim.gd" id="1_ln1yi"]
+
+[node name="Sim" type="PanelContainer"]
+offset_right = 516.0
+offset_bottom = 512.0
+script = ExtResource("1_ln1yi")
+
+[node name="HBox" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBox"]
+visible = false
+custom_minimum_size = Vector2(256, 0)
+layout_mode = 2
+
+[node name="ResultRect" type="TextureRect" parent="HBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(768, 768)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
