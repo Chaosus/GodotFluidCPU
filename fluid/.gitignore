@@ -1,7 +1,3 @@
-# Generated directories with binaries
-build
-bin
-
 # Godot 4+ specific ignores
 .godot/
 
@@ -14,6 +10,9 @@ export_presets.cfg
 
 # Imported translations (automatically generated from CSV files)
 *.translation
+
+# Obj-files
+*.obj
 
 # Mono-specific ignores
 .mono/
